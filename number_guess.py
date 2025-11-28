@@ -8,8 +8,9 @@ number =random.randint(1,100)
 attempts = 0
 
 while True:
-    guess = int(input("Enter your Guess:"))
-    attempts +=1
+    try:
+      guess = int(input("Enter your Guess:"))
+      attempts +=1
     #check the guess
     if guess < number:
         print("Too Low!")
