@@ -25,3 +25,5 @@ elif choice == '4':
         print(f"Result= {num1/num2}")
     else:
         print("error! division by zero is not Allowed ")
+else:
+    print("\nInvalid Input! Please select a correct operation to perform.\nExiting....\n")
